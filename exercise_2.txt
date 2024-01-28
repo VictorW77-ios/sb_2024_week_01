@@ -1,1 +1,17 @@
-.
+| Prefix | Name      | Power of 10 |
+|--------|-----------|-------------|
+| n      | nano      | 10^-9       |
+| µ      | micro     | 10^-6       |
+| m      | milli     | 10^-3       |
+| c      | centi     | 10^-2       |
+|        |           | 10^-1       |
+|        | deci      |             |
+|        |           | 0           |
+|        | tens      | 1           |
+|        | hundreds  | 10^2        |
+|        | thousands | 10^3        |
+|        | millions  | 10^6        |
+|        | billions  | 10^9        |
+| G      | giga      | 10^9        |
+| T      | tera      | 10^12       |
+
