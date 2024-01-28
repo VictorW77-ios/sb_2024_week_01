@@ -1,0 +1,16 @@
+Statue of Liberty = 305ft 
+Earth to Moon = 384.4 Mm 
+
+First I need to set equal units of distance. To do this, I convert Megameters to feet. 
+
+[Mm to ft] 
+384.4 Mm -> 384.4 x 10^6 m 
+
+(384.4 x 10^6) x (3,281 ft) = 1,261 x 10^12 ft 
+So, the distance from the earth to the moon in terms of feet is 1,261 x 10^12 ft
+
+
+Take that distance and divide it by the height of the Statue of Liberty:
+1,261 x 10^12 / 305ft 
+= 4.134 x 10^9 
+= The amount of times the Statue can fit between the earth and the moon
