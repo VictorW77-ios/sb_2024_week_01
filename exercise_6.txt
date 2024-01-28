@@ -1,0 +1,28 @@
+I was a little rusty with logs and bases when we covered them during the session, so I did a simple exercise to bridge the gap: 
+
+Solve log_2(x+3) + log_2(x−2)=4 
+
+1. I first used product rule (which required revisiting logarithm rules) to combine the logs since they have the same base
+- log_2((x+3)(x−2))=4 
+
+2. Given base 2, I then exponentiate each side
+- (x+3)(x-2) = 2^4 [or 16]
+
+3. Then I can expand the equation, simplifying it
+- x^2 - 2x + 3x - 6 = 16 
+-> x^2 + x - 6 = 16
+
+4. Move all to one side (this allows me to get a quadratic equation in order to factor the equation later to find x)
+- x^2 + x - 6 = 16
+- Set equal to 0 -> x^2 + x - (6 - 16) = 0
+- x^2 + x - 22 = 0 
+
+5. Factor the equation
+- This gives me (x-3)(x+6) = 0, so x = 3, or  x = -6 
+To find the value of x in this case, I'll have to check the solution. However, I know that logs have undefined behavior with negative numbers, so I only checked x = 3. 
+- log_2(3+3) + log_2(3-2) = 4
+- log_2(6) + log_2(1) = 4
+- log_2(6) + 0 = 4
+- log_2(6) = 4 
+Which checks out, so I know the solution is x = 3. 
+
