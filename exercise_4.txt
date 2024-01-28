@@ -1,0 +1,12 @@
+Converting microseconds to relatable human terms 
+
+[5.432e14 usec to seconds]
+
+5.432e14 usec = 5.432e14 seconds
+
+[Now, I convert those seconds to days. Converting down to the second of each minute is necessary in order to have equal units of time]
+
+5.432e14 / ((24 hours in a day)(60 minutes in each hour)(60 seconds in each minute))
+= 6.291e9 days OR 6,291,000,000,000 days 
+
+
