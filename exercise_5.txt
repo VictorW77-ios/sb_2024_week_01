@@ -1,0 +1,33 @@
+Solve for x: 
+
+(a - b*c^((d - e*x)^2))/f = g
+
+1. First, I need to isolate the exponent. When I multiply both sides of an equation by a non-zero constant (f), it doesn't change the solution of the equation
+
+- (f)(a - b*c^((d - e*x)^2))/f) = (f)(g)
+
+-> (a - b*c^((d - e*x)^2) = f*g 
+
+
+2. Next, I subtract f*g from both sides to further isolate exponent 
+- (a - b*c^((d - e*x)^2) = (f*g - f*g)
+- (a - b*c^((d - e*x)^2)
+-> (a-f*g) = b*c^((d - e*x)^2)
+
+3. Then I divide both sides by b
+- ((a-f*g)/b) = b*c^((d - e*x)^2)/b 
+-> ((a-f*g)/b) = c^((d - e*x)^2)
+
+4. In order to eliminiate the exponent, I'm taking the log_c of both sides 
+
+- log_c((a-f*g)/b) = log_c(c^((d - e*x)^2)) 
+-> log_c((a-f*g)/b) = log_c((d - e*x)^2)
+
+5. Now I take the sqrt of both sides and move terms to isolate x
+- +-sqrt(log_c((a-f*g)/b)) = d - e*x 
+-> e*x = d +-sqrt(log_c((a-f*g)/b))
+
+6. Divide both sides by e to get x 
+- (e*x)/e = (d +-sqrt(log_c((a-f*g)/b)))/e
+-> x = (d +-sqrt(log_c((a-f*g)/b)))/e
+
